@@ -1,0 +1,18 @@
+.social-icons {
+  margin-top: 8px;
+}
+
+.social-icons button {
+  border: 1px solid var(--tertiary);
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 17px;
+}
+
+.social-icons button:hover {
+  background-color: var(--entry);
+}
+
+.social-icons svg {
+  vertical-align: bottom;
+}

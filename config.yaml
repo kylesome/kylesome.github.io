@@ -1,0 +1,59 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: Kyle Stewart
+theme: PaperMod
+enableRobotsTXT: true
+
+params:
+  # environment [development|production]
+  env: development
+
+  # opengraph meta tags
+  description: "ExampleSite description"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+
+  # layout config
+  defaultTheme: auto
+  hideFooter: true
+  label:
+    text: Home
+
+  # asset config
+  assets:
+    disableHLJS: true # to disable highlight.js
+
+  # about me section
+  homeInfoParams:
+    Title: "Hi, my name is Kyle \U0001F44B"
+    Content: |
+      I'm a software developer turned data engineer who is inspired by tough problems.
+      I have over 8 years experience in the ever evolving landscape of software development.
+      I thrive in a collaborative culture where I can enable others to do their best work.
+
+  socialIcons:
+  - name: linkedin
+    url: "https://www.linkedin.com/in/kyle-stewart-2956523a"
+  - name: github
+    url: "https://github.com/kylesome"
+  - name: cv
+    url: "https://github.com/"
+
+
+  # blog post config
+  cover:
+    hidden: true
+  DateFormat: "January, 2006"
+  ShowShareButtons: false
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
