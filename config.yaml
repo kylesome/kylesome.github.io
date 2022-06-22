@@ -1,28 +1,23 @@
-baseURL: http://example.org/
+baseURL: https://kylesome.github.io
 languageCode: en-us
 title: Kyle Stewart
 theme: PaperMod
-enableRobotsTXT: true
+enableRobotsTXT: false
 
 params:
-  # environment [development|production]
-  env: development
-
   # opengraph meta tags
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  description: Kyle Stewart's blog
+  keywords: [Blog, Portfolio]
+  author: Kyle Stewart
+
+  # search engine indexing
+  robotsNoIndex: true
 
   # layout config
   defaultTheme: auto
   hideFooter: true
   label:
     text: Home
-
-  # asset config
-  assets:
-    disableHLJS: true # to disable highlight.js
 
   # about me section
   homeInfoParams:
@@ -32,19 +27,20 @@ params:
       I have over 8 years experience in the ever evolving landscape of software development.
       I thrive in a collaborative culture where I can enable others to do their best work.
 
+  # about me links
   socialIcons:
   - name: linkedin
     url: "https://www.linkedin.com/in/kyle-stewart-2956523a"
   - name: github
     url: "https://github.com/kylesome"
-  - name: cv
-    url: "https://github.com/"
+  # - name: cv
+  #   url: "https://kylesome.github.io/Kyle_Stewart_CV.pdf"
 
 
   # blog post config
   cover:
     hidden: true
-  DateFormat: "January, 2006"
+  DateFormat: "January, 2022"
   ShowShareButtons: false
   ShowReadingTime: true
   ShowPostNavLinks: true
