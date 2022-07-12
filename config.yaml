@@ -14,7 +14,7 @@ params:
   robotsNoIndex: true
 
   # layout config
-  defaultTheme: auto
+  defaultTheme: dark
   hideFooter: true
   label:
     text: Home
